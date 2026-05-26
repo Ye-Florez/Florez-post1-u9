@@ -75,7 +75,7 @@ y termina. Ejemplos:
 | B | 42 |
 | C | 43 |
 
-### ✔ Checkpoint 1
+### Checkpoint 1
 
 El programa TECL.COM compila sin errores y muestra correctamente el valor
 hexadecimal de la tecla presionada.
@@ -112,7 +112,7 @@ Con MAX_RETRY=0005h y sin presionar ninguna tecla, el programa muestra:
 Timeout: sin respuesta del dispositivo
 ```
 
-### ✔ Checkpoint 2
+### Checkpoint 2
 
 El programa POLL_T.COM muestra el mensaje de timeout cuando MAX_RETRY
 es pequeño y no se presiona ninguna tecla en el tiempo definido.
@@ -151,7 +151,7 @@ hacia el envío del dato. El programa compila y termina sin errores ni bloqueo.
 El acceso a los puertos 0x378, 0x379 y 0x37A no genera error en DOSBox.
 El pulso STROBE se genera correctamente aunque no haya periférico físico.
 
-### ✔ Checkpoint 3
+### Checkpoint 3
 
 El programa LPT.COM compila y se ejecuta sin errores de acceso a puerto
 en DOSBox. El bucle .wait_ready termina por timeout al no haber impresora
